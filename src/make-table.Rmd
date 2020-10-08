@@ -1,9 +1,19 @@
-# This script compares performance of our current Her2 stain to a new stain
+---
+title: ''
+output:
+  html_document: default
 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
 # load libraries
 library(tidyverse)
 library(gt)
+```
 
+
+```{r stains, message=FALSE}
 # import raw data
 stain_raw <- read_csv("data/her2_cases.csv")
 
@@ -52,5 +62,11 @@ stain_dish %>%
   fmt_missing(
     columns = everything(),
     missing_text = "--"
+  ) %>% 
+  tab_options(
+    table.font.size = 12,
+    table.layout = "fixed",
+    table.width = pct(100)
   )
-  
+```
+
