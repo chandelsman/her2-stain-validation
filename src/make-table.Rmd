@@ -2,7 +2,8 @@
 title: ''
 output:
   html_document: default
-
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -15,7 +16,7 @@ library(gt)
 
 ```{r stains, message=FALSE}
 # import raw data
-stain_raw <- read_csv("data/her2_cases.csv")
+stain_raw <- read_csv("../data/her2_cases.csv")
 
 # Assign DISH group
 stain_dish <- 
@@ -38,11 +39,16 @@ stain_dish <-
         `Her2 signal` < 6.0 ~ 4,
       `z_Her2 Chr17 ratio` < 2.0 & `Her2 signal` < 4.0 ~ 5,
       TRUE ~ as.numeric(NA)
+    ),
+    Type = case_when(
+      Type == "Breast" ~ "Breast Cases",
+      Type == "GI" ~ "GI Cases"
     )
   )
 
 stain_dish %>% 
   select(
+    Type,
     Pathologist,
     Cytotech,
     `Case ID`,
@@ -58,14 +64,28 @@ stain_dish %>%
     `comments (current)` = Her2_comments,
     `comments (new)` = z_Her2_comments
   ) %>% 
-  gt() %>% 
+  gt(groupname_col = "Type", 
+     rowname_col = "Pathologist") %>% 
+  tab_header(title = 
+               md("**Table 1: Pairwise results of current and new Her2Dual ISH Test**")
+  ) %>% 
   fmt_missing(
     columns = everything(),
     missing_text = "--"
   ) %>% 
+  cols_align(
+    align = "center",
+    columns = c(3, 5:13)
+  ) %>% 
+ tab_style(
+    style = 
+      cell_fill(color = "yellow"),
+      locations = cells_body(
+      rows = `DISH Group current` != `DISH Group new`)
+  ) %>%
   tab_options(
+    column_labels.font.weight = "bold",
     table.font.size = 12,
-    table.layout = "fixed",
     table.width = pct(100)
   )
 ```
