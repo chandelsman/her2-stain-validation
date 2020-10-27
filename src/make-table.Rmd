@@ -85,7 +85,7 @@ stain_dish %>%
   ) %>%
   tab_options(
     column_labels.font.weight = "bold",
-    table.font.size = 12,
+    table.font.size = 10,
     table.width = pct(100)
   )
 ```

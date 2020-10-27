@@ -49,3 +49,5 @@ ID,Start time,Completion time,Email,Name,Case ID,Her2 Chr17 ratio,zHer2_score_NE
 48,10/19/20 9:48:17,10/19/20 9:49:55,anonymous,,VS20-05009 B1,,,None,"Signals are much easier to visualize than old stain, background is cleaner.",,Andersen,Breast,,1+,1.0,2.0,2.0,1.0,2.4,2.4,,,,JL
 49,10/21/20 8:46:14,10/21/20 8:48:10,anonymous,,OSW20-2875 A1,,,Old stain.,"New stain - signals much more clear, easier to enumerate.",,Pizzi,Breast,,1+,1.0,2.1,2.2,1.1,2.0,2.3,,,,KB
 50,10/23/20 10:14:35,10/23/20 10:21:13,anonymous,,IS20-00946 A1,,,Stain failed.  Sent for FISH,New stain - old stain failed.,,Libby,Breast,,,,,,1.0,2.0,2.0,1.2,2.6,3.0,KB
+51,10/26/20 11:18:15,10/26/20 11:19:37,anonymous,,IS20-00949 A1,,,Old stain failed,None,,Libby,Breast,,,,,,1.0,2.2,2.3,1.0,2.2,2.2,JL
+52,10/27/20 8:23:16,10/27/20 8:29:01,anonymous,,AS20-02481 A1,,,Old Stain failed,None,,Libby,Breast,,,,,,1.0,2.2,2.2,1.1,2.0,2.2,JL
