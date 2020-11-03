@@ -16,7 +16,7 @@ library(gt)
 
 ```{r stains, message=FALSE}
 # import raw data
-stain_raw <- read_csv("../data/her2_cases.csv")
+stain_raw <- read_csv("./data/her2_cases.csv")
 
 # Assign DISH group
 stain_dish <- 

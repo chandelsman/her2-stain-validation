@@ -51,3 +51,18 @@ ID,Start time,Completion time,Email,Name,Case ID,Her2 Chr17 ratio,zHer2_score_NE
 50,10/23/20 10:14:35,10/23/20 10:21:13,anonymous,,IS20-00946 A1,,,Stain failed.  Sent for FISH,New stain - old stain failed.,,Libby,Breast,,,,,,1.0,2.0,2.0,1.2,2.6,3.0,KB
 51,10/26/20 11:18:15,10/26/20 11:19:37,anonymous,,IS20-00949 A1,,,Old stain failed,None,,Libby,Breast,,,,,,1.0,2.2,2.3,1.0,2.2,2.2,JL
 52,10/27/20 8:23:16,10/27/20 8:29:01,anonymous,,AS20-02481 A1,,,Old Stain failed,None,,Libby,Breast,,,,,,1.0,2.2,2.2,1.1,2.0,2.2,JL
+53,11/3/20 12:30:38,11/3/20 12:34:02,anonymous,,VS20-03437 A1v,,,,Validation slide,,Libby,Breast,,,,,,2.9,2.0,5.8,2.5,2.3,5.9,KB
+54,11/3/20 12:34:43,11/3/20 12:36:26,anonymous,,NS20-3099 A1v,,,,Validation slide,,Pizzi,Breast,,,,,,3.5,5.9,20.6,2.3,2.8,6.5,NP
+55,11/3/20 12:36:47,11/3/20 12:40:03,anonymous,,NS20-03479 A1v,,,None,Validation slide,,Andersen,Breast,,3+,4.1,1.8,7.4,5.3,2.0,10.5,,,,KB
+56,11/3/20 12:40:19,11/3/20 12:44:08,anonymous,,VS20-04327 A1v,,,None,Validation slide,,Andersen,Breast,,2+,2.5,2.0,4.9,2.9,2.0,5.8,,,,KB
+57,11/3/20 12:44:22,11/3/20 12:45:37,anonymous,,VS20-04416 A1v,,,None,Validation slide,,Pizzi,GI,,2+,3.8,2.4,8.9,3.9,2.3,8.8,,,,JL
+58,11/3/20 12:46:07,11/3/20 12:47:50,anonymous,,DS20-00412 A1v,,,failed,Validation slide,,Libby,GI,,,,,,5.6,2.0,11.1,3.8,2.6,10.0,KB
+59,11/3/20 12:48:07,11/3/20 12:50:00,anonymous,,VS20-00397 A1v,,,None,Validation slide,,Libby,Breast,,3+,3.8,2.9,10.9,3.3,2.6,8.7,,,,JL
+60,11/3/20 12:50:17,11/3/20 12:52:21,anonymous,,OSW20-2245 A1v,,,None,Validation slide,,Andersen,Breast,,2+,2.6,3.3,8.6,2.4,2.1,5.0,,,,KB
+61,11/3/20 12:52:40,11/3/20 12:54:07,anonymous,,VS20-04131 A1v,,,None,Validation slide,,Pizzi,Breast,,3+,2.1,2.2,4.7,2.6,2.0,5.2,,,,JL
+62,11/3/20 12:54:28,11/3/20 12:56:21,anonymous,,OSW20-2329 A1v,,,None,Validation slide,,Andersen,Breast,,3+,4.4,2.1,9.5,4.4,2.2,9.6,,,,JL
+63,11/3/20 12:57:14,11/3/20 12:58:32,anonymous,,MS20-01610 A1v,,,None,Validation slide,,Andersen,Breast,,3+,6.5,2.1,13.8,5.8,2.6,15.1,,,,JL
+64,11/3/20 12:59:12,11/3/20 13:02:12,anonymous,,OS20-10559 B2v,,,None,Validation slide,,Libby,Breast,,3+,2.1,2.0,4.2,7.1,2.4,16.7,,,,NP
+65,11/3/20 13:02:41,11/3/20 13:04:56,anonymous,,RS20-02781 A8v,,,,Validation slide,,Pizzi,Breast,,,,,,4.1,2.7,10.8,3.1,2.4,7.4,NP
+66,11/3/20 13:05:17,11/3/20 13:06:35,anonymous,,NS20-01202 A1v,,,None,Validation slide,,Andersen,Breast,,3+,6.6,2.6,16.8,7.9,2.1,16.2,,,,KB
+67,11/3/20 13:06:51,11/3/20 13:09:36,anonymous,,NS20-01350 A1v,,,failed,Validation slide,,Libby,Breast,,3+,,,,7.2,2.2,15.4,,,,KB
